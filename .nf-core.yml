@@ -1,1 +1,13 @@
+lint:
+  nf_test_content: false
+nf_core_version: 3.3.2
 repository_type: pipeline
+template:
+  author: Nicolas Servant
+  description: Analysis of Chromosome Conformation Capture data (Hi-C)
+  force: false
+  is_nfcore: true
+  name: hic
+  org: nf-core
+  outdir: .
+  version: 2.2.0dev
